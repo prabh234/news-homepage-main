@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | News homepage</title>
+  <!-- fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+ <link rel="stylesheet" href="style.css">
+<body>
+<section class="navbar">
+    <div class="navbar-brand"><img src="assets/images/logo.svg" alt="logo"></div>
+    <button class="colapse" aria-controls="mob-collapse" aria-expanded="false"></button>
+  <nav>
+    <ul id="mob-collapse" data-visible="false">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">New</a></li>
+      <li><a href="#">Popular</a></li>
+      <li><a href="#">Trending</a></li>
+      <li><a href="#">Categories</a></li>
+    
+    </ul>
+  </nav>
+</section>
+  
+  
+  
+<section class="main">
+
+    <div class="title-image">
+            <img class="titleimage" src="assets/images/image-web-3-desktop.jpg" alt="title-image">
+            <img class="titleimage-mob" src="assets/images/image-web-3-mobile.jpg" alt="title-image">
+    </div>
+
+    <div class="title">
+      <h1>The Bright Future of Web 3.0?</h1>
+    </div>
+
+    <div class="side-info">
+      <p>
+        We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+        But is it really fulfilling its promise?
+      </p>
+        <button class="readmore">READ MORE</button> 
+    </div>
+
+    <div class="sidebar">
+      <h2>New</h2>
+
+        <div class="sub-sets">
+            <h4><a class="sidebar-link" href="#">Hydrogen VS Electric Cars</a></h4>
+            <p class="s-text">Will hydrogen-fueled cars ever catch up to EVs?</p>
+        </div>
+        <hr>
+        <div class="sub-sets">
+          <h4><a href="#" class="sidebar-link">The Downsides of AI Artistry</a></h4>
+          <p class="s-text">What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <hr>
+        <div class="sub-sets">
+          <h4><a href="#" class="sidebar-link">Is VC Funding Drying Up?</a></h4>
+          <p class="s-text">Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+
+    </div>
+
+
+      
+      <div class="box box-1">
+        <div class="box-img">
+          <img src="assets/images/image-retro-pcs.jpg" alt="retro pc">
+        </div>
+        <div class="box-txt">
+          <h3 class="numbers">01</h3>
+          <h4 class="box-headings"><a href="#" class="box-link">Reviving Retro PCs</a></h4>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="box box-2">
+        <div class="box-img">
+          <img src="assets/images/image-top-laptops.jpg" alt="laptops">  
+        </div>
+        <div class="box-txt">
+          <h3 class="numbers">02</h3>
+          <h4 class="box-headings"><a href="#" class="box-link">Top 10 Laptops of 2022</a></h4>
+          <p>Our best picks for various needs and budgets.</p>
+      </div>
+    </div>
+      <div class="box box-3">
+        <div class="box-img">
+          <img src="assets/images/image-gaming-growth.jpg" alt="gaming">
+        </div>
+        <div class="box-txt">
+          <h3 class="numbers">03</h3>
+          <h4 class="box-headings"><a href="#" class="box-link">The Growth of Gaming</a></h4>
+          <p>How the pandemic has sparked fresh opportunities.</p>
+        </div>
+
+      </div>
+    
+  
+  
+  
+</section>
+
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
